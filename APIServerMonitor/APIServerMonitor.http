@@ -1,0 +1,6 @@
+@APIServerMonitor_HostAddress = http://localhost:5151
+
+GET {{APIServerMonitor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
