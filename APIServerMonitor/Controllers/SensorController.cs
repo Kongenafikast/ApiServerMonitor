@@ -80,6 +80,7 @@ namespace APIServerMonitor.Controllers
         [HttpPost("PostSensors")]
         public async Task<IActionResult> PostSensors(string json)
         {
+            Console.WriteLine(json);
             if (!string.IsNullOrEmpty(json))
             {
                 bool result = true;
